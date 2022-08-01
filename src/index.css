@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
+
+@layer components {
+    input, textarea {
+        @apply rounded-sm text-black mb-2;
+    }
+
+    input {
+        @apply p-2;
+    }
+}
+
 @tailwind utilities;
