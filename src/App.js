@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Formulario from './Formulario';
 import ListadoCitas from './ListadoCitas';
-import './App.css';
 
 function App() {
   const [citas, setCitas] = useState([{

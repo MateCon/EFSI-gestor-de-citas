@@ -9,6 +9,10 @@
     input {
         @apply p-2;
     }
+
+    label {
+        @apply font-semibold;
+    }
 }
 
 @tailwind utilities;

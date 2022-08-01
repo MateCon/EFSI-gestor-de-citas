@@ -36,7 +36,7 @@ export default function Formulario({ setCitas }) {
             <input required type="time" name="Hora" value={hora} onChange={e => setHora(e.target.value)} />
             <label htmlFor="Sintomas">Nombre Mascota</label>
             <textarea required name="Sintomas" value={sintomas} onChange={e => setSintomas(e.target.value)} />
-            <button type="submit" className="text-center w-full border border-cyan-700 rounded-sm my-2 py-2 text-sm bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 transition">Agregar Cita</button>
+            <button type="submit" className="text-xs font-medium tracking-wider text-center w-full border border-cyan-700 rounded-sm my-2 py-2 bg-cyan-500 hover:bg-cyan-600 active:bg-cyan-700 transition">AGREGAR CITA</button>
         </form>
     )
 }
